@@ -205,9 +205,11 @@ img {
 
   
   /* Requirements 12-15 here: */
-  .skip:focus{
-    position: left;
+  a.skip:focus{
+    left: 0px;
     top: 20px;
+    border-top: 2px solid #ffff00;
+    outline: none;
 
   }
 
